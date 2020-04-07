@@ -41,12 +41,19 @@ module.exports = {
     // 配置放置生成的静态资源 (js、css、img、fonts) 的 (相对于 outputDir 的) 目录
     assetsDir,
 
-    lintOnSave: false, // 禁止eslint
     devServer: {
         host: devServerHost,
         port: devServerPort,
         open: devServerOpen, // 构建完成自动打开浏览器
+
+
+        // eslint检测影响代码编译，注释调不会影响代码编译
+        // overlay: {
+        //     warnings: true,
+        //     errors: true
+        // }
     },
+    lintOnSave: processEnv === 'development' ? true : false, // 开发环境开启eslint，测试和线上编辑代码禁止eslint
 
     //  webpack 配置，键值对象时会合并配置，为方法时会改写配置
     configureWebpack: config => {

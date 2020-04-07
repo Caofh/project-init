@@ -39,7 +39,7 @@ export default {
     // console.log($)
 
     listPage().then((data) => {
-      // console.log(data)
+      console.log(data)
     })
   }
 }
