@@ -1,7 +1,7 @@
 // 开发环境地址(npm run serve)
 const devHost = {
   // 接口地址域名相关
-  baseApi: 'http://tpdoc.cn:3001', // 使用代理(https://user-center.secoo.com)
+  baseApi: 'http://tpdoc.cn:3001',
 
 }
 
