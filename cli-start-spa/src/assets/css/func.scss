@@ -1,0 +1,11 @@
+// 单位rem
+@function px ($num) {
+  @return ($num / 75)+rem;
+}
+
+// 字体全套
+@mixin font-all($size: 28px, $color: $color-font, $fontFamily: $family-main) {
+  font-family: $fontFamily;
+  font-size: $size;
+  color: $color;
+}
