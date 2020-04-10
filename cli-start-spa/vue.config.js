@@ -155,8 +155,13 @@ module.exports = {
             }
 
         },
-        // 启用 CSS modules for all css / pre-processor files.
-        requireModuleExtension: false
+        /** 启用 CSS modules for all css / pre-processor files.
+         引入第三方ui库和如果在js中引用了css的话，必须设置为true，因为如果设置为false的话，会把这些通过js引入的css启动css modules，
+         会将第三方ui的css类名后面加上哈希值，会出问题。
+         参考文档(vue-cli官网解释)：https://cli.vuejs.org/zh/config/#css-requiremoduleextension 和
+         https://cli.vuejs.org/zh/guide/css.html#css-modules
+         **/
+        requireModuleExtension: true
     },
 
     // 构建时开启多进程处理 babel 编译
