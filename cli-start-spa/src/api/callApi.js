@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import axios from 'axios' // 文档：http://www.axios-js.com/zh-cn/docs/#axios-create-config
 import Qs from 'qs'
 
