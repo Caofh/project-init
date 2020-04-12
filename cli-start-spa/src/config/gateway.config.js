@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 // 开发环境地址(npm run serve)
 const devHost = {
   // 接口地址域名相关
