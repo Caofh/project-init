@@ -1,0 +1,9 @@
+{
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "示例页面",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "watermark": "/components/waterMark/index"
+  }
+}

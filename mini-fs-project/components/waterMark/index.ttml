@@ -1,0 +1,3 @@
+
+<canvas class="waterMark" canvas-id="waterMark" style="width:{{ innerWidth }}px; height:{{ innerHeight }}px;"/>
+

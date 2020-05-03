@@ -1,0 +1,6 @@
+<view id="container" class="container"
+    style="height:{{ startMark ? 'auto' : overHeight + 'px' }};">
+
+    我是示例页面
+
+</view>
