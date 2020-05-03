@@ -1,7 +1,9 @@
 const app = getApp();
 const common = app.common; // 公用方法
 
-let that = ''
+// 接口
+import { data_list } from '../..//callApi/pages/full_info.js'
+
 Page({
   data: {
     windowWidth: '',
@@ -9,7 +11,7 @@ Page({
 
   },
   onLoad: function() {
-    that = this
+    let that = this
 
     common.getSystemInfo().then((res) => {
       this.setData({
@@ -27,6 +29,10 @@ Page({
 
   start () {
     console.log('设置完毕')
+
+    data_list().then((res) => {
+      console.log(res)
+    })
 
   },
 

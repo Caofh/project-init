@@ -8,13 +8,13 @@ const env = 'test'
 
 // 开发、测试环境地址
 const devUrl = {
-    hostApi: 'http://test.com', // 接口地址域名相关
+    hostApi: 'https://tpdoc.cn', // 接口地址域名相关
 
 }
 
 // 线上环境地址
 const proUrl = {
-    hostApi: 'http://production.com', // 接口地址域名相关
+    hostApi: 'https://tpdoc.cn', // 接口地址域名相关
 
 }
 

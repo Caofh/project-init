@@ -4,10 +4,10 @@ import gateWay from '../../config/gateway_config'
 
 let hostApi = gateWay.hostApi // 接口域名
 
-// 获取转正信信息接口；
-export function letter (data) {
+// 获取信息列表接口；
+export function data_list (data) {
     return callApi({
-        url: `${hostApi}/employee/letter`,
+        url: `${hostApi}/api/data_list`,
         method: 'get',
         data: data
     })

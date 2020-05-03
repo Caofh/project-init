@@ -60,17 +60,17 @@ function promiseData (para, debug) {
                     let data = res.data // 接口返回的真实数据
                     let status = data.status // 返回码兼容
 
-                    if (String(status) === '0') {
+                    // if (String(status) === '0') {
                         // debug 打印请求的详情；接口请求成功，打印出来
                         debug && output(para.url, para.data, res, 'success')
 
                         resolve(data)
-                    } else {
-                        // 接口请求异常，打印出来，以便定位问题
-                        output(para.url, para.data, res)
+                    // } else {
+                    //     // 接口请求异常，打印出来，以便定位问题
+                    //     output(para.url, para.data, res)
 
-                        reject(data)
-                    }
+                    //     reject(data)
+                    // }
 
                 } else if (status === 401 || status === 403) {
 
