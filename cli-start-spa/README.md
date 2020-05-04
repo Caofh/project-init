@@ -1,34 +1,21 @@
-# cli-start-spa
+# cli-start-spa(vue-cli3的大型项目单页面架构方案)
 
-## Project setup
+## 安装依赖
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 开发环境启动
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 测试环境
+```
+npm run test
+```
+
+### 发布生产
 ```
 npm run build
 ```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
