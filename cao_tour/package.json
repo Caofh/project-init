@@ -1,0 +1,25 @@
+{
+  "name": "cao_tour",
+  "version": "1.0.4",
+  "description": "the useful function of js",
+  "main": "dist/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "mocha-phantomjs test/test-demo.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caofh/cao_tour.git"
+  },
+  "author": "Topay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caofh/cao_tour/issues"
+  },
+  "homepage": "https://github.com/Caofh/cao_tour#readme",
+  "dependencies": {},
+  "devDependencies": {
+  }
+}
