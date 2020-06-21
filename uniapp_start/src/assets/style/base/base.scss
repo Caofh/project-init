@@ -1,0 +1,105 @@
+input,
+textarea,
+select {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  vertical-align: middle;
+}
+
+textarea {
+  resize: none;
+}
+
+a {
+  color: $color-font;
+  text-decoration: none;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+body * {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-overflow-scrolling: touch;
+}
+
+html,
+body {
+  width: 100%;
+  position: relative;
+  font-size: px(24);
+  color: $color-font;
+}
+
+//文本框、文本域placeholder样式配置
+:-moz-placeholder {
+  font-size: px(24);
+  color: $color-placeholder;
+}
+
+::-moz-placeholder {
+  font-size: px(24);
+  color: $color-placeholder;
+}
+
+input:-ms-input-placeholder {
+  font-size: px(24);
+  color: $color-placeholder;
+}
+
+input::-webkit-input-placeholder {
+  font-size: px(24);
+  color: $color-placeholder;
+}
+
+// 清除浮动
+.clearfix:after {
+  content: '';
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+// 冲抵小程序默认image样式
+img,
+image {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+.filter {
+  filter: blur(4px);
+}
+
+// 冲抵小程序默认button样式
+button {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 2.55555556;
+  border-radius: 0;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  color: #000000;
+  border: none;
+  background-color: transparent;
+
+  &::after {
+    border: none;
+  }
+}

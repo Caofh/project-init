@@ -1,0 +1,92 @@
+
+/*统一风格flex布局*/
+.c-flex-x-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.c-flex-x-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c-flex-x-start{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.c-flex-x-end{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.c-flex-y-between{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.c-flex-y-center{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.c-flex-y-start{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+.c-flex-y-end{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+}
+/*统一风格：图片父级div*/
+.c-img {
+  width: 22rpx;
+  height: 22rpx;
+  position: relative;
+  image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+/*统一风格: 省略号系列（单行省略号和多行省略号）,注：多行省略号目前只支持chrome浏览器，存在兼容性问题*/
+.c-ellipsis-single{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.c-ellipsis-more{ /* 默认两行省略,如多行自行修改下方-webkit-line-clamp值：改为想要省略的行数*/
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+/*统一风格隐藏元素*/
+.c-hidden{
+  display:none;
+}
+/*统一风格: 按钮(100rpx,30rpx)*/
+.c-btn{
+  display: block;
+  width: 150rpx;
+  height: 36rpx;
+  line-height: 34rpx;
+  text-align: center;
+  font-size: 16rpx;
+  color: #fff;
+  background: #03A9F4;
+  border-radius: 20rpx;
+  border: 1rpx solid #03A9F4;
+  cursor:pointer;
+  text-decoration: none;
+}
+
