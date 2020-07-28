@@ -11,5 +11,7 @@
 > 飞书小程序初始化项目脚手架(原生)
 ## uniapp_start
 > uniapp初始化脚手架（适用于各种小程序，跨平台）
+## cocos-init
+> cocos creator初始化脚手架（跨平台游戏引擎；官网： https://www.cocos.com/）
 
 
