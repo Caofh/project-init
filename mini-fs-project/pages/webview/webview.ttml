@@ -1,0 +1,12 @@
+
+
+
+<view class="container">
+  <template is="head" data="{{title: 'web-view'}}"/>
+  <view class="page-body">
+    <view class="page-section page-section-gap">
+      <web-view src="https://applink.feishu.cn/client/mini_program/open?appId=cli_9e0b21edd4bb500e&mode=window" bindload="loadDone" binderror = "errorLoad" progressbar-color="#CC3333"></web-view>
+    </view>
+  </view>
+  <template is="foot" />
+</view>

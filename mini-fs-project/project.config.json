@@ -6,6 +6,24 @@
 		"minified": true,
 		"newFeature": true
 	},
-	"appid": "yourappid",
-	"projectname": "示例项目"
+	"appid": "cli_9e0b21edd4bb500e",
+	"projectname": "示例项目",
+	"condition": {
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "webview",
+					"pathName": "pages/webview/webview",
+					"query": "",
+					"scene": "1001",
+					"referrerInfo": {
+						"appId": "",
+						"extraData": ""
+					}
+				}
+			]
+		}
+	}
 }
